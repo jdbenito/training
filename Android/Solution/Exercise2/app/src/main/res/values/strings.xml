@@ -9,8 +9,12 @@
     <string name="myCustomText">This is a warm-up. The good stuff is about to come!</string>
 
     <string name="title_activity_login">LoginActivity</string>
-
     <string name="login_button">Login</string>
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
+
+    <string name="list_row_title_placeholder">row_title_placeholder</string>
+    <string name="list_row_subtitle_placeholder">row_subtitle_placeholder</string>
+    <string name="title_activity_list">ListActivity</string>
+
 </resources>
