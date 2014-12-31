@@ -20,6 +20,15 @@ public class MainActivity extends ActionBarActivity {
 
         MyList aList = new MyList();
         switchToFragment(aList, false);
+
+        Button btnTest = (Button) findViewById(R.id.btnTest);
+        btnTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MyList bList = new MyList();
+                switchToFragment(bList, true);
+            }
+        });
     }
 
     private void switchToFragment (Fragment fragment, boolean keepInHistory) {
