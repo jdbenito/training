@@ -1,6 +1,6 @@
 package com.hybridforge.training;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import android.widget.ListView;
 import com.hybridforge.training.datamodel.PersonAdapter;
 
 
-public class ListActivity extends Fragment {
+public class MyList extends Fragment {
     ListView mListView;
 
     /**

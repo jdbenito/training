@@ -1,8 +1,12 @@
 package com.hybridforge.training;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -14,17 +18,33 @@ public class MainActivity extends ActionBarActivity {
         // PRO-TIP: To open the activity_main source file, Command + click 'activity_main'
         setContentView(R.layout.activity_main);
 
-        // To get a handle on a UI element, use findViewById(int resID)
-        TextView myTextView = (TextView) findViewById(R.id.myTextView);
+        MyList aList = new MyList();
+        switchToFragment(aList, false);
 
-        // To retrieve a string resource, use getString(int resID)
-        String myCustomText = getString(R.string.myCustomText);
-
-        // Change the content of the text view
-        myTextView.setText(myCustomText);
+        Button btnTest = (Button) findViewById(R.id.btnTest);
+        btnTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MyList bList = new MyList();
+                switchToFragment(bList, true);
+            }
+        });
     }
 
-//    @Override
+    private void switchToFragment (Fragment fragment, boolean keepInHistory) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        if (keepInHistory) {
+            fragmentTransaction.setCustomAnimations(R.anim.enter, R.anim.exit, R.anim.pop_enter, R.anim.pop_exit);
+        }
+        fragmentTransaction.replace(R.id.fragmentContainer, fragment);
+        if (keepInHistory) {
+            fragmentTransaction.addToBackStack(null);
+        }
+        fragmentTransaction.commit();
+    }
+
+    //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //        // Inflate the menu; this adds items to the action bar if it is present.
 //        getMenuInflater().inflate(R.menu.menu_main, menu);

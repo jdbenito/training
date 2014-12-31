@@ -68,7 +68,7 @@ public class LoginActivity extends ActionBarActivity {
             super.onPostExecute(aVoid);
 
             // Create an intent to launch the list activity
-            Intent listIntent = new Intent(LoginActivity.this, ListActivity.class);
+            Intent listIntent = new Intent(LoginActivity.this, MyList.class);
             LoginActivity.this.startActivity(listIntent);
 
             // Terminate the login activity

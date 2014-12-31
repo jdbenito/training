@@ -17,4 +17,6 @@
     <string name="list_row_subtitle_placeholder">row_subtitle_placeholder</string>
     <string name="title_activity_list">ListActivity</string>
 
+    <string name="btn_test">TEST</string>
+
 </resources>
