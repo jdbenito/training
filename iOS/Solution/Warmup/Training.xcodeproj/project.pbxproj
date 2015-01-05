@@ -87,11 +87,11 @@
 			children = (
 				9ACB1C2A1A5B01E20072C667 /* AppDelegate.h */,
 				9ACB1C2B1A5B01E20072C667 /* AppDelegate.m */,
-				9ACB1C4E1A5B08A80072C667 /* Main.storyboard */,
 				9ACB1C5B1A5B19120072C667 /* Controller */,
 				9ACB1C5C1A5B19120072C667 /* Model */,
 				9ACB1C5D1A5B19120072C667 /* View */,
 				9ACB1C331A5B01E20072C667 /* Images.xcassets */,
+				9ACB1C4E1A5B08A80072C667 /* Main.storyboard */,
 				9ACB1C351A5B01E20072C667 /* LaunchScreen.xib */,
 				9ACB1C521A5B13420072C667 /* Categories */,
 				9ACB1C261A5B01E20072C667 /* Supporting Files */,
