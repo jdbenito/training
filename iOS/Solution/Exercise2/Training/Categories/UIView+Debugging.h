@@ -1,5 +1,5 @@
 //
-//  UILabel+Debugging.h
+//  UIView+Debugging.h
 //  Training
 //
 //  Created by JD Benito on 2015-01-05.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (Debugging)
+@interface UIView (Debugging)
 
 - (void)showBorders;
 - (void)showBordersUsingColor:(UIColor *)borderColor_;

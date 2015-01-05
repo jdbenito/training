@@ -13,10 +13,13 @@
 		9ACB1C371A5B01E20072C667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACB1C351A5B01E20072C667 /* LaunchScreen.xib */; };
 		9ACB1C431A5B01E20072C667 /* TrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C421A5B01E20072C667 /* TrainingTests.m */; };
 		9ACB1C4F1A5B08A80072C667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACB1C4E1A5B08A80072C667 /* Main.storyboard */; };
-		9ACB1C551A5B136E0072C667 /* UILabel+Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C541A5B136E0072C667 /* UILabel+Debugging.m */; };
 		9ACB1C601A5B19120072C667 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C5F1A5B19120072C667 /* MainViewController.m */; };
 		9ACB1C651A5B1CD70072C667 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C641A5B1CD70072C667 /* LoginViewController.m */; };
 		9ACB1C6E1A5B367E0072C667 /* UIResponder+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */; };
+		9AE7A9781A5B455F0024CA16 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7A9771A5B455F0024CA16 /* ListViewController.m */; };
+		9AE7A97B1A5B47300024CA16 /* RowCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7A97A1A5B47300024CA16 /* RowCellView.m */; };
+		9AE7A97E1A5B47D80024CA16 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7A97D1A5B47D80024CA16 /* Person.m */; };
+		9AE7A9811A5B52560024CA16 /* UIView+Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7A9801A5B52560024CA16 /* UIView+Debugging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		9ACB1C411A5B01E20072C667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ACB1C421A5B01E20072C667 /* TrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingTests.m; sourceTree = "<group>"; };
 		9ACB1C4E1A5B08A80072C667 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9ACB1C531A5B136E0072C667 /* UILabel+Debugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Debugging.h"; sourceTree = "<group>"; };
-		9ACB1C541A5B136E0072C667 /* UILabel+Debugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Debugging.m"; sourceTree = "<group>"; };
 		9ACB1C5E1A5B19120072C667 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9ACB1C5F1A5B19120072C667 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9ACB1C611A5B19810072C667 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
@@ -50,6 +51,14 @@
 		9ACB1C641A5B1CD70072C667 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9ACB1C6C1A5B367E0072C667 /* UIResponder+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Additions.h"; sourceTree = "<group>"; };
 		9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Additions.m"; sourceTree = "<group>"; };
+		9AE7A9761A5B455F0024CA16 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		9AE7A9771A5B455F0024CA16 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		9AE7A9791A5B47300024CA16 /* RowCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowCellView.h; sourceTree = "<group>"; };
+		9AE7A97A1A5B47300024CA16 /* RowCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowCellView.m; sourceTree = "<group>"; };
+		9AE7A97C1A5B47D80024CA16 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9AE7A97D1A5B47D80024CA16 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9AE7A97F1A5B52560024CA16 /* UIView+Debugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Debugging.h"; sourceTree = "<group>"; };
+		9AE7A9801A5B52560024CA16 /* UIView+Debugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debugging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				9ACB1C611A5B19810072C667 /* Categories.h */,
-				9ACB1C531A5B136E0072C667 /* UILabel+Debugging.h */,
-				9ACB1C541A5B136E0072C667 /* UILabel+Debugging.m */,
+				9AE7A97F1A5B52560024CA16 /* UIView+Debugging.h */,
+				9AE7A9801A5B52560024CA16 /* UIView+Debugging.m */,
 				9ACB1C6C1A5B367E0072C667 /* UIResponder+Additions.h */,
 				9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */,
 			);
@@ -153,6 +162,8 @@
 		9ACB1C5C1A5B19120072C667 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7A97C1A5B47D80024CA16 /* Person.h */,
+				9AE7A97D1A5B47D80024CA16 /* Person.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +175,10 @@
 				9ACB1C5F1A5B19120072C667 /* MainViewController.m */,
 				9ACB1C631A5B1CD70072C667 /* LoginViewController.h */,
 				9ACB1C641A5B1CD70072C667 /* LoginViewController.m */,
+				9AE7A9761A5B455F0024CA16 /* ListViewController.h */,
+				9AE7A9771A5B455F0024CA16 /* ListViewController.m */,
+				9AE7A9791A5B47300024CA16 /* RowCellView.h */,
+				9AE7A97A1A5B47300024CA16 /* RowCellView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,10 +285,13 @@
 			files = (
 				9ACB1C2C1A5B01E20072C667 /* AppDelegate.m in Sources */,
 				9ACB1C291A5B01E20072C667 /* main.m in Sources */,
-				9ACB1C551A5B136E0072C667 /* UILabel+Debugging.m in Sources */,
+				9AE7A9781A5B455F0024CA16 /* ListViewController.m in Sources */,
+				9AE7A97B1A5B47300024CA16 /* RowCellView.m in Sources */,
 				9ACB1C601A5B19120072C667 /* MainViewController.m in Sources */,
+				9AE7A97E1A5B47D80024CA16 /* Person.m in Sources */,
 				9ACB1C6E1A5B367E0072C667 /* UIResponder+Additions.m in Sources */,
 				9ACB1C651A5B1CD70072C667 /* LoginViewController.m in Sources */,
+				9AE7A9811A5B52560024CA16 /* UIView+Debugging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #ifndef Training_Categories_h
 #define Training_Categories_h
 
-#import "UILabel+Debugging.h"
+#import "UIView+Debugging.h"
 #import "UIResponder+Additions.h"
 
 #endif
