@@ -10,5 +10,6 @@
 #define Training_Categories_h
 
 #import "UILabel+Debugging.h"
+#import "UIResponder+Additions.h"
 
 #endif

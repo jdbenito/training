@@ -14,7 +14,7 @@
 		<string>https://github.com/jdbenito/training.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Solution/Warmup/Training.xcodeproj</string>
+	<string>iOS/Solution/Exercise1/Training.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3B7704CB4732598A71D403A3ADB52B170B0A4A97</key>

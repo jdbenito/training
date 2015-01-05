@@ -15,6 +15,8 @@
 		9ACB1C4F1A5B08A80072C667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACB1C4E1A5B08A80072C667 /* Main.storyboard */; };
 		9ACB1C551A5B136E0072C667 /* UILabel+Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C541A5B136E0072C667 /* UILabel+Debugging.m */; };
 		9ACB1C601A5B19120072C667 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C5F1A5B19120072C667 /* MainViewController.m */; };
+		9ACB1C651A5B1CD70072C667 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C641A5B1CD70072C667 /* LoginViewController.m */; };
+		9ACB1C6E1A5B367E0072C667 /* UIResponder+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		9ACB1C5E1A5B19120072C667 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9ACB1C5F1A5B19120072C667 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9ACB1C611A5B19810072C667 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		9ACB1C631A5B1CD70072C667 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9ACB1C641A5B1CD70072C667 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9ACB1C6C1A5B367E0072C667 /* UIResponder+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Additions.h"; sourceTree = "<group>"; };
+		9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,8 @@
 				9ACB1C611A5B19810072C667 /* Categories.h */,
 				9ACB1C531A5B136E0072C667 /* UILabel+Debugging.h */,
 				9ACB1C541A5B136E0072C667 /* UILabel+Debugging.m */,
+				9ACB1C6C1A5B367E0072C667 /* UIResponder+Additions.h */,
+				9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -154,6 +162,8 @@
 			children = (
 				9ACB1C5E1A5B19120072C667 /* MainViewController.h */,
 				9ACB1C5F1A5B19120072C667 /* MainViewController.m */,
+				9ACB1C631A5B1CD70072C667 /* LoginViewController.h */,
+				9ACB1C641A5B1CD70072C667 /* LoginViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +272,8 @@
 				9ACB1C291A5B01E20072C667 /* main.m in Sources */,
 				9ACB1C551A5B136E0072C667 /* UILabel+Debugging.m in Sources */,
 				9ACB1C601A5B19120072C667 /* MainViewController.m in Sources */,
+				9ACB1C6E1A5B367E0072C667 /* UIResponder+Additions.m in Sources */,
+				9ACB1C651A5B1CD70072C667 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
