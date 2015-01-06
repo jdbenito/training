@@ -11,6 +11,9 @@
 @interface ListViewController : UIViewController {
     
     __weak IBOutlet UITableView *_myList;
+    BOOL _toggle;
 }
+
+- (IBAction)btnReloadPressed:(id)sender;
 
 @end

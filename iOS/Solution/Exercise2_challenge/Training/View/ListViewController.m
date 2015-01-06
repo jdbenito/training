@@ -13,6 +13,8 @@
 
 @interface ListViewController ()
 
+- (NSArray *)testData;
+
 @end
 
 @implementation ListViewController
@@ -20,6 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // Initialize the toggle values
     
     // The following offsets the table view content so that it starts below the status bar.
     _myList.contentInset = UIEdgeInsetsMake(10, 0, 0, 0);
@@ -31,28 +35,30 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSArray *)testData {
+    if (_toggle) {
+        return [Person testData1];
+    }
+    return [Person testData2];
 }
-*/
 
+#pragma mark - TableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView_ numberOfRowsInSection:(NSInteger)section_ {
-    return [[Person testData1] count];
+    return [[self testData] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView_ cellForRowAtIndexPath:(NSIndexPath *)indexPath_ {
-
     RowCellView *cell = [tableView_ dequeueReusableCellWithIdentifier:NSStringFromClass([RowCellView class])];
     NSInteger row = indexPath_.row;
-    Person *curPerson = [Person testData1][row];
+    Person *curPerson = [self testData][row];
     [cell setPerson:curPerson];
     
     return cell;
 }
 
+#pragma mark - Actions
+- (IBAction)btnReloadPressed:(id)sender {
+    _toggle = !_toggle;
+    [_myList reloadData];
+}
 @end
