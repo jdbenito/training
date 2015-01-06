@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4E4D18A-FC46-495A-8DBB-72EA0C2D248B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Training</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B7704CB4732598A71D403A3ADB52B170B0A4A97</key>
+		<string>https://github.com/jdbenito/training.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Solution/Exercise2_challenge/Training.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B7704CB4732598A71D403A3ADB52B170B0A4A97</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jdbenito/training.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B7704CB4732598A71D403A3ADB52B170B0A4A97</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B7704CB4732598A71D403A3ADB52B170B0A4A97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ABC_Training</string>
+		</dict>
+	</array>
+</dict>
+</plist>
