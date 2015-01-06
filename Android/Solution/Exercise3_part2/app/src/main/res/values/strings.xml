@@ -16,6 +16,7 @@
     <string name="list_row_title_placeholder">row_title_placeholder</string>
     <string name="list_row_subtitle_placeholder">row_subtitle_placeholder</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="list_btn_toggle_data">Load New Data</string>
 
     <string name="btn_test">TEST</string>
 

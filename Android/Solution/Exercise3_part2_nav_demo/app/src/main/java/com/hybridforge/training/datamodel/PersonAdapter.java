@@ -28,6 +28,10 @@ public class PersonAdapter extends BaseAdapter {
         mCtx = ctx;
     }
 
+    public void toggleData() {
+        Person.toggleTestData();
+    }
+
     @Override
     public int getCount() {
         List<Person> testData = Person.getTestData();

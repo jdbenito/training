@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.hybridforge.training.datamodel.PersonAdapter;
@@ -12,6 +13,7 @@ import com.hybridforge.training.datamodel.PersonAdapter;
 
 public class MyList extends Fragment {
     ListView mListView;
+    Button mBtnToggle;
 
     /**
      * Called to have the fragment instantiate its user interface view.
@@ -36,10 +38,19 @@ public class MyList extends Fragment {
         View v  = inflater.inflate(R.layout.activity_list, container, false);
 
         mListView = (ListView) v.findViewById(R.id.listView);
+        mBtnToggle = (Button) v.findViewById(R.id.btnToggleData);
 
         // Create the adapter
-        PersonAdapter adapter = new PersonAdapter(getActivity());
+        final PersonAdapter adapter = new PersonAdapter(getActivity());
         mListView.setAdapter(adapter);
+
+        mBtnToggle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                adapter.toggleData();
+                adapter.notifyDataSetChanged();
+            }
+        });
 
         return v;
     }
