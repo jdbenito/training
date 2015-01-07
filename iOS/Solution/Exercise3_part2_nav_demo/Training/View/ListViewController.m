@@ -10,6 +10,7 @@
 #import "RowCellView.h"
 #import "Person.h"
 #import "Categories.h"
+#import "DetailsViewController.h"
 
 @interface ListViewController ()
 
@@ -55,6 +56,20 @@
     
     return cell;
 }
+
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    
+    DetailsViewController *details = (DetailsViewController *)[segue destinationViewController];
+    NSInteger row = [[_myList indexPathForSelectedRow] row];
+    Person *curPerson = [self testData][row];
+    [details setPerson:curPerson];
+}
+
 
 #pragma mark - Actions
 - (IBAction)btnReloadPressed:(id)sender {
