@@ -50,7 +50,7 @@
 
 - (NSString *)displayAge {
     if (_age > 1) {
-        return [NSString stringWithFormat:@"%d years old", _age];
+        return [NSString stringWithFormat:@"%ld years old", (long)_age];
     }
     if (_age == 1) {
         return @"1 year old";

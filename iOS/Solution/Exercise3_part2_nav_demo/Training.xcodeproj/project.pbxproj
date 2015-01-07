@@ -105,7 +105,6 @@
 			children = (
 				9ACB1C2A1A5B01E20072C667 /* AppDelegate.h */,
 				9ACB1C2B1A5B01E20072C667 /* AppDelegate.m */,
-				9ACB1C5B1A5B19120072C667 /* Controller */,
 				9ACB1C5C1A5B19120072C667 /* Model */,
 				9ACB1C5D1A5B19120072C667 /* View */,
 				9ACB1C331A5B01E20072C667 /* Images.xcassets */,
@@ -153,13 +152,6 @@
 				9ACB1C6D1A5B367E0072C667 /* UIResponder+Additions.m */,
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		9ACB1C5B1A5B19120072C667 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		9ACB1C5C1A5B19120072C667 /* Model */ = {
